@@ -41,5 +41,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# dependencies
+/node_modules
+/bower_components
+
 #Firebase credentials
 /src/app/api-keys.ts

@@ -16,8 +16,13 @@ _An application gives an information about my educational background, skills, te
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Technologies Used
-HTML, Bootstrap and CSS.
+# Screenshots
+ _Upcoming Events those I'm attending:_
+## Women Talking Tech Series - PDX [Oct-03]
+![Guest Speaker: Perry Eising](images/PDXWIT1.png)
+
+## Women Talking Tech Series - PDX [Oct-10]
+![Goal: To pursue tech careers](images/PDXWIT2.png)
 
 
 # Setup

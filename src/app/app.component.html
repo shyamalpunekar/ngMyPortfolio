@@ -1,15 +1,29 @@
 <nav class="navbar navbar-default" id="text-header">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Shyamal's </a>
+      <a class="navbar-brand" routerLink="">Shyamal Punekar </a>
+      <h4 class="text-header">Java Developer </h4>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a routerLink="about">About Me</a></li>
+      <li><a routerLink="goals">Future Goals</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="well">
-  <h1>{{title}}</h1>
-  <router-outlet></router-outlet>
+  <h3>{{title}}</h3>
+  <!-- <h3>{{myImage}}</h3> -->
+  <div class="row">
+    <div class="col-md-4">
+      <img id="img_float_align" src="images/shyamal_profile.jpg" alt="Shyamal's portfolio" width="200px" height="200px"/>
+    </div>
+    <div class="col-md-8">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
+
+<blockquote class="nav navbar-nav navbar-right">
+  <footer>Shyamal Punekar</footer>
+</blockquote>

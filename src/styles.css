@@ -1,15 +1,63 @@
 app-root{
   background-color: pink;
-  color: blue;
+  color: #50058E;
+  font-family: "Grandesign", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 #text-header{
-  background-color: pink;
+  background-color: #7D06B1;
 }
 
+.text-header{
+  color: #D297EC;
+}
+
+.text-header:hover{
+  color: #D297EC;
+}
+
+
+img{
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
 .well{
-  background-color: #e46361;;
+  background-color: #D297EC;;
 }
 html{
-  background-color: yellow;
+  background-color: #D297EC;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+blockquote{
+  coolor: #50058E;
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+	body {
+		background-color: black;
+		color: green;
+    font-family: sans-serif;
+	}
+}
+
+@media screen and (max-width:480px) {
+	body {
+		background-color: teal;
+	}
+	.centerTest {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.about:hover{
+  color: #ff4da6;
 }

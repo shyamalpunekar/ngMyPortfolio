@@ -44,6 +44,15 @@ blockquote{
 
 }
 
+.icon-list-one{
+  margin-left: 450px;
+}
+
+
+#icon-shift{
+  margin-right: -40px;
+}
+
 @media screen and (max-width: 768px) and (min-width: 600px) {
 	body {
 		background-color: black;

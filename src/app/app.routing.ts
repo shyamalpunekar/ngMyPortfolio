@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import {FutureGoalsComponent} from './future-goals/future-goals.component';
+import { ProjectplaceComponent } from './projectplace/projectplace.component';
+import { ActivitiesDetailComponent } from './activities-detail/activities-detail.component'
 
 const appRoutes: Routes = [
   {
@@ -16,6 +18,14 @@ const appRoutes: Routes = [
   {
     path: 'goals',
     component: FutureGoalsComponent
+  },
+  {
+    path: 'projectplace',
+    component: ProjectplaceComponent
+  },
+  {
+    path: 'projects/:id',
+    component: ActivitiesDetailComponent
   }
 ];
 

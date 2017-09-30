@@ -1,0 +1,18 @@
+{ "activities": [{
+    "name": "Team Tracker",
+    "technology": "Java, Spark, PostGres, Restful webservices",
+    "description": "This is a program that allows a Startup Weekend organizer or hack-a-thon coordinator to track teams and their members. Management software with dashboard for a hypothetical Teams to allow to CREATE, ADD, UPDATE, DELETE members"
+    }, {
+    "name": "Galactic Age Calculator",
+    "technology": "HTML/CSS, JavaScript/TypeScript, ES6, Jasmine/Karma",
+    "description": "An application that determines a user’s age based on a planet’s solar years."
+      }, {
+    "name": "My Portfolio",
+    "technology": "HTML/CSS, JavaScript/TypeScript, AngularJs2, Firebase",
+    "description": "An application gives an information about my educational background, skills, technologies, current education, future Goals."
+      }, {
+    "name": "Doctor LookUp",
+    "technology": "HTML/CSS, JavaScript/TypeScript, AngularJS",
+    "description": "An application where users may enter a medical issue into a form, submit it, and receive a list of doctors in your city (e.g. Portland)."
+  }]
+}

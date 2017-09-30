@@ -1,4 +1,4 @@
 export class Activities {
-  constructor (public name: string, public technology: string, public description: string, public id: number) { }
+  constructor (public name: string, public technology: string, public description: string) { }
 
 }

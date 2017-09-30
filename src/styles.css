@@ -1,19 +1,20 @@
 app-root{
-  background-color: pink;
-  color: #50058E;
+  background-color: #99CDE5;
+  color: ##283E4A;
   font-family: "Grandesign", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 #text-header{
-  background-color: #7D06B1;
+  background-color: #283e4a;
 }
 
 .text-header{
   color: #D297EC;
+
 }
 
-.text-header:hover{
-  color: #D297EC;
+.text-header{
+  color: #99CDE5;
 }
 
 
@@ -21,12 +22,14 @@ img{
   border-radius: 5px;
   margin-left: 100px;
   margin-top: 50px;
+
 }
-.well{
-  background-color: #D297EC;;
+div.well{
+  background-color: #99CDE5;
 }
 html{
-  background-color: #D297EC;
+  background-color: #99CDE5;
+  color: #283e4a;
 }
 
 @keyframes example {
@@ -48,6 +51,10 @@ blockquote{
   margin-left: 450px;
 }
 
+
+footer{
+  margin-right: 30px;
+}
 
 #icon-shift{
   margin-right: -40px;
